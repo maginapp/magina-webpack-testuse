@@ -1,5 +1,7 @@
 //main.js 
 
+import './hello'
+
 import './Greeter.css';
 
 const greeter = require('./Greeter.js');
