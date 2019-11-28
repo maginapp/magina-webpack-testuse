@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "unit": "karma start ./test/unit/karma.conf.js",
+    "tsc": "tsc",
     "start": "webpack",
     "server": "webpack-dev-server --open"
   },
